@@ -25,35 +25,40 @@
     font-size: 100%;
 }
 
+
+
+
+
 .mensagens{
+    display: flex;
+    flex-direction: column;
     width: 100%;
     height: 100%;
 
 }
-.mensagem{
+.divmensagem{
     position: relative;
-}
-
-.msg{
     border: 0.5px black solid;
     margin: auto;
     width: 95%;
     margin-top: 7px;
     font-size: 10px;
     padding: 7px;
-
 }
+
 button{
     background-color: green;
     position: absolute;
     width: auto;
-    right: 58px;
+    right: 50px;
     border: 0;
+    bottom: -18px;
 }
 .excluir{
     background-color: orange;
-    right: 7px;
+    right: 0;
 }
+
 
 
 
@@ -63,14 +68,11 @@ button{
     background-color: gray;
     padding: 5px;
     border: 0.5px solid black;
-}
-form{
-    width: auto;
-    background-color: gray;
     display: flex;
 }
 textarea{
     resize: none;
+    width: auto;
 }
 input{
     width: auto;
@@ -79,7 +81,4 @@ input{
     border: 0;
     margin: 5px;
     border-radius: 5px;
-}
-span{
-    padding: 5px;
 }

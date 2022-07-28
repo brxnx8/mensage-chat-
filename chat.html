@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,19 +13,18 @@
             <p class="title">Historico de mensagens</p>
         </div>
         <section class="mensagens">
-            <div class="mensagem">
-                <p class="msg">adipisicing elit. Cumque necessitatibus nesciunt iusto odio consectetur ex,
-                 magnam magni voluptatum facere labore culpa voluptatibus quo, vitae illo cupiditate hic. Nihil, possimus fuga!</p>
+            <div class="divmensagem">
+                adipisicing elit. Cumque necessitatibus nesciunt iusto odio consectetur ex,
+                 magnam magni voluptatum facere labore culpa voluptatibus quo, vitae illo cupiditate hic. Nihil, possimus fuga!
                 <button class="excluir">excluir</button>
                 <button class="editar">editar</button>
             </div>
         </section>
         <div class="txtarea">
-            <form action="">
                 <textarea name="" id="" cols="35" rows="5" placeholder="digite a mensagem..."></textarea>
-                <input type="submit">
-            </form>
+                <input type="submit" onclick="addMensage()">
         </div>
     </section>
+    <script src="scriptchat.js"></script>
 </body>
 </html>
