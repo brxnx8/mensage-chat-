@@ -46,7 +46,7 @@
     padding: 7px;
 }
 
-button{
+.editar{
     background-color: green;
     position: absolute;
     width: auto;
@@ -56,6 +56,10 @@ button{
 }
 .excluir{
     background-color: orange;
+    position: absolute;
+    width: auto;
+    border: 0;
+    bottom: -18px;
     right: 0;
 }
 
