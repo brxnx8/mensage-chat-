@@ -78,7 +78,7 @@ textarea{
     resize: none;
     width: auto;
 }
-input{
+.add{
     width: auto;
     height: 20px;
     background-color: aqua;
