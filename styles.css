@@ -1,0 +1,85 @@
+
+.historico{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 550px;
+    height: 400px;
+    margin: auto;
+    border: 0.5px solid black;
+    margin-top: 100px;
+    
+    
+}
+.divtitulo{
+    width: 100%;
+    height: auto;
+    text-align: justify;
+    background-color: rgb(186, 183, 183);
+    border-bottom: 0.5px black solid;
+}
+.title{
+    margin: auto;
+    padding: 15px;
+    font-size: 100%;
+}
+
+.mensagens{
+    width: 100%;
+    height: 100%;
+
+}
+.mensagem{
+    position: relative;
+}
+
+.msg{
+    border: 0.5px black solid;
+    margin: auto;
+    width: 95%;
+    margin-top: 7px;
+    font-size: 10px;
+    padding: 7px;
+
+}
+button{
+    background-color: green;
+    position: absolute;
+    width: auto;
+    right: 58px;
+    border: 0;
+}
+.excluir{
+    background-color: orange;
+    right: 7px;
+}
+
+
+
+
+.txtarea{
+    width: auto;
+    background-color: gray;
+    padding: 5px;
+    border: 0.5px solid black;
+}
+form{
+    width: auto;
+    background-color: gray;
+    display: flex;
+}
+textarea{
+    resize: none;
+}
+input{
+    width: auto;
+    height: 20px;
+    background-color: aqua;
+    border: 0;
+    margin: 5px;
+    border-radius: 5px;
+}
+span{
+    padding: 5px;
+}
