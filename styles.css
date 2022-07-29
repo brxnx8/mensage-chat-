@@ -44,6 +44,7 @@
 .divmain{
     min-height:auto;
     position: relative;
+    padding: 15px;
 }
 
 .divmensagem{
@@ -64,7 +65,7 @@
     background-color: green;
     position: absolute;
     width: auto;
-    right: 58px;
+    right: 66px;
     border: 0;
     bottom: 0;
     border-radius: 10px;
@@ -76,9 +77,12 @@
     width: auto;
     border: 0;
     bottom: 0;
-    right: 7px;
+    right: 15px;
     border-radius: 10px;
 
+}
+#save{
+    right: 77px;
 }
 
 
